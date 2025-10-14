@@ -34,4 +34,4 @@ done
 curl -k https://raw.githubusercontent.com/chubbyhippo/ideavimrc/refs/heads/main/.ideavimrc -o ~/.ideavimrc
 
 # install plugins
-curl -k https://raw.githubusercontent.com/chubbyhippo/rustrover-settings/refs/heads/main/install-plugins.sh | /usr/bin/env sh
+curl -k https://raw.githubusercontent.com/chubbyhippo/pycharm-settings/refs/heads/main/install-plugins.sh | /usr/bin/env sh

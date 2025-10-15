@@ -16,4 +16,5 @@ com.julienphalip.ideavim.peekaboo \
 com.jetbrains.kmm \
 com.joshestein.ideavim-quickscope \
 eu.theblob42.idea.whichkey \
-indent-rainbow.indent-rainbow
+indent-rainbow.indent-rainbow \
+izhangzhihao.rainbow.brackets.lite

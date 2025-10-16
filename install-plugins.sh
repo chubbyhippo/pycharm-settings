@@ -3,18 +3,18 @@
 # plugins
 cmd=pycharm
 if uname | grep -q "^MINGW"; then
-  cmd="$HOME"/AppData/Local/JetBrains/Toolbox/scripts/pycharm.cmd
+	cmd="$HOME"/AppData/Local/JetBrains/Toolbox/scripts/pycharm.cmd
 fi
 
 $cmd installPlugins \
-IdeaVIM \
-StringToolsPlugin \
-com.fwdekker.randomness \
-com.github.camork.fileExpander \
-com.joshestein.ideavim-quickscope \
-com.julienphalip.ideavim.peekaboo \
-com.jetbrains.kmm \
-com.joshestein.ideavim-quickscope \
-eu.theblob42.idea.whichkey \
-indent-rainbow.indent-rainbow \
-izhangzhihao.rainbow.brackets.lite
+	IdeaVIM \
+	StringToolsPlugin \
+	com.fwdekker.randomness \
+	com.github.camork.fileExpander \
+	com.joshestein.ideavim-quickscope \
+	com.julienphalip.ideavim.peekaboo \
+	com.jetbrains.kmm \
+	com.joshestein.ideavim-quickscope \
+	eu.theblob42.idea.whichkey \
+	indent-rainbow.indent-rainbow \
+	izhangzhihao.rainbow.brackets.lite

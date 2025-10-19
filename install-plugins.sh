@@ -17,4 +17,5 @@ $cmd installPlugins \
 	com.joshestein.ideavim-quickscope \
 	eu.theblob42.idea.whichkey \
 	indent-rainbow.indent-rainbow \
-	izhangzhihao.rainbow.brackets.lite
+	izhangzhihao.rainbow.brackets.lite \
+	org.sonarlint.idea

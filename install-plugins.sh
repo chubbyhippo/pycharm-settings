@@ -5,8 +5,10 @@ cmd=pycharm
 if uname | grep -q "^MINGW"; then
 	if command -v pycharm.cmd >/dev/null 2>&1; then
 		cmd=pycharm.cmd
+	elif command -v idea64 >/dev/null 2>&1; then
+		cmd=pycharm64
 	else
-		echo "Warning: pycharm.cmd not found, falling back to pycharm"
+		echo "Warning: neither pycharm.cmd nor pycharm64 found, falling back to pycharm"
 	fi
 fi
 

@@ -2,7 +2,7 @@
 
 RAW_ITELLIJ_SETTINGS_URL="https://raw.githubusercontent.com/chubbyhippo/intellij-settings/refs/heads/main"
 RAW_IDEAVIM_URL="https://raw.githubusercontent.com/chubbyhippo/ideavimrc/refs/heads/main"
-RAW_PYCHARM_SETTINGS_URL="https://raw.githubusercontent.com/chubbyhippo/pyharm-settings/refs/heads/main"
+RAW_PYCHARM_SETTINGS_URL="https://raw.githubusercontent.com/chubbyhippo/pycharm-settings/refs/heads/main"
 
 # config paths
 for config_path in \

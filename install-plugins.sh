@@ -3,7 +3,11 @@
 # plugins
 cmd=pycharm
 if uname | grep -q "^MINGW"; then
-	cmd="$HOME"/AppData/Local/JetBrains/Toolbox/scripts/pycharm.cmd
+	if command -v pycharm.cmd >/dev/null 2>&1; then
+		cmd=pycharm.cmd
+	else
+		echo "Warning: pycharm.cmd not found, falling back to pycharm"
+	fi
 fi
 
 $cmd installPlugins \

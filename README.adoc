@@ -1,0 +1,9 @@
+= Pycharm-Settings
+:raw_pycharm_settings_url: https://raw.githubusercontent.com/chubbyhippo/pycharm-settings/refs/heads/main
+
+== Setup
+
+[source,shell,subs="attributes"]
+----
+curl -s {raw_pycharm_settings_url}/setup.sh | /usr/bin/env sh
+----

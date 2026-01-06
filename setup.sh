@@ -9,7 +9,6 @@ for config_path in \
   "$HOME"/.config/JetBrains/PyCharm* \
   "$HOME"/Library/Application\ Support/JetBrains/PyCharm* \
   "$HOME"/AppData/Roaming/JetBrains/PyCharm*; do
-  echo "$config_path"
   if [ -d "$config_path" ]; then
     echo "$config_path"
     # install code styles
